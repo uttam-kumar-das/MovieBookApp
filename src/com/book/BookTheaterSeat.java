@@ -1,7 +1,7 @@
 package com.book;
 
 public class BookTheaterSeat {
-	static int total_seats=30;
+	static int total_seats=35;
 	
 	static synchronized void bookSeat(int seats) {
 		if(total_seats>=seats) {
