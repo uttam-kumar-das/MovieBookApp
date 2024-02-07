@@ -1,7 +1,9 @@
 package com.book;
 
 public class BookTheaterSeat {
+
 	static int total_seats=50;
+
 	
 	static synchronized void bookSeat(int seats) {
 		if(total_seats>=seats) {
@@ -11,8 +13,8 @@ public class BookTheaterSeat {
 		}
 		else {
 			System.out.println(seats+" Seats cannot be booked");
-			System.out.println("seat left "+total_seats);
-			//System.out.println();
+			System.out.println(" Total seat left "+total_seats);
+			System.out.println();
 			
 		}
 	}
