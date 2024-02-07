@@ -10,8 +10,8 @@ public class BookTheaterSeat {
 			System.out.println("Seats left "+total_seats);
 		}
 		else {
-			System.out.println("Seats cannot be booked");
-			System.out.println("seat left "+total_seats);
+			System.out.println(seats+" Seats cannot be booked");
+			System.out.println(" Total seat left "+total_seats);
 			System.out.println();
 			
 		}
